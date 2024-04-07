@@ -91,3 +91,14 @@ input {
   transform: translate(-50%,-50%);
   font-style: italic;
 }
+
+
+#weather{
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
