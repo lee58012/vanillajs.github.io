@@ -1,0 +1,93 @@
+.hidden{
+  display: none;
+}
+
+body{
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  color:black;
+}
+
+input[type=text]{
+  width: 350px;
+  height: 30px;
+  font-size: 30;
+  border-radius: 5px;
+}
+
+
+input {
+  border: 3px solid aliceblue;
+  font-size: 1.5em;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+#clock{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 90px;
+  color: aliceblue;
+  opacity: 80%;
+}
+
+
+
+#login-form{
+  position: absolute;
+  top: 40%;
+  left: 49.5%;
+  transform: translate(-40%,-50%);
+  text-align: center;
+  color: aliceblue;
+}
+
+#greeting{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 40px;
+  color:  black;
+  opacity: 80%;
+}
+
+
+#todo-form{
+  position: absolute;
+  top: 50%;
+  left: 49.5%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: aliceblue;  
+}
+
+#todo-list{
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  text-align: left; 
+  font-size: 25px;
+  color: aliceblue;
+}
+
+#quote{
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: 25px;   
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-style: italic;
+}
